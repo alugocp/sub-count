@@ -1,6 +1,6 @@
 var request={
   load:function(callback){
-    $.get("http://youtube.com/alexlugo",null,function(text){
+    $.get("https://youtube.com/alexlugo",null,function(text){
       var b=text.indexOf(" subscribers");
       var a=b;
       while(a>0 && text[a]!='"') a--;
